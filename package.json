@@ -1,0 +1,28 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a tutorial to backend",
+  "homepage": "https://github.com/RTXOVER/Intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/RTXOVER/Intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RTXOVER/Intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "RTXOVER",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0",
+    "nodemon": "^3.1.11"
+  }
+}
